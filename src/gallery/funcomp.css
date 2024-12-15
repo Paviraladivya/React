@@ -1,0 +1,24 @@
+.mainbox{
+   display: flex;
+   justify-content: space-between;
+  background-color: bisque;
+  width: 60vw ;
+  padding:45px ;
+  margin: auto;
+  margin-top: 100px;
+  /* margin: auto; */
+  /* margin-left: 100px; */
+}
+.available{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+
+}
+.unavailable{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
